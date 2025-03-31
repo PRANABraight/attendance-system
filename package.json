@@ -1,0 +1,16 @@
+{
+  "name": "attendance-system",
+  "version": "1.0.0",
+  "description": "A web application for attendance monitoring with options to add video or use camera.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

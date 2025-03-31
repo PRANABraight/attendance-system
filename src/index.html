@@ -1,0 +1,55 @@
+<!-- \src\index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Monitoring System</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-user-clock"></i>
+                <span>Smart Attendance</span>
+            </div>
+            <div class="nav-links">
+                <!-- <a href="#" class="active">Dashboard</a> -->
+                <!-- <a href="#">Reports</a>
+                <a href="#">Settings</a> -->
+            </div>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="hero">
+            <h1>Smart Attendance Monitoring</h1>
+            <p class="subtitle">Advanced facial recognition for accurate attendance tracking</p>
+        </section>
+        <section class="options-panel">
+            <h2>Select Input Source</h2>
+            <div class="options-grid">
+                <button id="addVideo" class="btn btn-primary">
+                    <i class="fas fa-file-video"></i>
+                    <span>Upload Video</span>
+                </button>
+                <button id="useCamera" class="btn btn-primary">
+                    <i class="fas fa-camera"></i>
+                    <span>Live Camera</span>
+                </button>
+            </div>
+        </section>
+        <section id="mediaContainer" class="media-section">
+            <div class="status-display">
+                <p> <i class="fas fa-clock"></i> Select an input source to begin attendance monitoring</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2025 AttendanceMS | Designed with <i class="fa fa-heart" aria-hidden="true"></i> by Christites</p>
+    </footer>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
